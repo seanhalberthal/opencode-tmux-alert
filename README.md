@@ -16,20 +16,20 @@
 
 ## Quick Start
 
-### npm package
+### Package
 
-Add the plugin to your OpenCode config:
+Install in your OpenCode config directory:
+
+```bash
+bun install opencode-tmux-alert
+```
+
+Then add the plugin to your `opencode.json`:
 
 ```json
 {
   "plugin": ["opencode-tmux-alert"]
 }
-```
-
-Then install:
-
-```bash
-npm install opencode-tmux-alert
 ```
 
 ### Local file
@@ -60,8 +60,8 @@ This means alerts work out of the box with a standard tmux config, and can be fu
 | Event | Trigger | Action |
 |-------|---------|--------|
 | `session.idle` | Task completed, agent waiting | Alert |
-| `permission.asked` | Agent needs permission to proceed | Alert |
-| `message.part.updated` | Tool waiting for approval | Alert |
+| `permission.updated` | Agent needs permission to proceed | Alert |
+| `message.part.updated` | Tool pending approval | Alert |
 | `tui.prompt.append` | Agent asking a question | Alert |
 | `message.updated` (user) | User submits a message | Clear |
 
