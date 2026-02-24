@@ -1,0 +1,38 @@
+{
+  "name": "opencode-tmux-alert",
+  "version": "1.0.0",
+  "description": "Tmux alert plugin for OpenCode — get notified when your AI agent needs attention",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "scripts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tmux",
+    "alert",
+    "notification"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanhalberthal/opencode-tmux-alert.git"
+  },
+  "homepage": "https://github.com/seanhalberthal/opencode-tmux-alert",
+  "bugs": {
+    "url": "https://github.com/seanhalberthal/opencode-tmux-alert/issues"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.2.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
