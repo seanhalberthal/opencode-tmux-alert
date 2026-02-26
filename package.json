@@ -1,6 +1,6 @@
 {
   "name": "opencode-tmux-alert",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Tmux alert plugin for OpenCode — get notified when your AI agent needs attention",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "bun run build"
+    "test": "bun test",
+    "prepublishOnly": "bun test && bun run build"
   },
   "keywords": [
     "opencode",
