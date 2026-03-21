@@ -5,7 +5,7 @@
 **Tmux alert plugin for [OpenCode](https://opencode.ai) — get notified when your AI agent needs attention.**
 
 [![npm](https://img.shields.io/npm/v/opencode-tmux-alert?style=flat&logo=npm)](https://www.npmjs.com/package/opencode-tmux-alert)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Licence](https://img.shields.io/github/license/seanhalberthal/opencode-tmux-alert?style=flat&label=licence)](LICENCE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-Plugin-green.svg?style=flat)](https://opencode.ai/docs/plugins/)
 
 [Quick Start](#quick-start) · [How It Works](#how-it-works) · [Events](#events) · [Customisation](#customisation)
@@ -107,6 +107,6 @@ set -g visual-bell off    # optional — suppress the visual flash
 
 ---
 
-## License
+## Licence
 
-[MIT](LICENSE)
+[MIT](LICENCE)
